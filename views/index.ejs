@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequelize Server</title>
+</head>
+<body>
+    <center>
+        <form>
+            <input type="text" placeholder="Add todo!..">
+            <input type="submit" value="Add">
+        </form>
+        <ul>
+            <% for( let todo of todos ) { %>
+                <li><% todos[todo] %></li>
+            <% } %>
+        </ul>
+    </center>
+</body>
+</html>
